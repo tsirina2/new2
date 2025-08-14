@@ -1,9 +1,9 @@
+array = [ 2,9,11,12,14,7,12,218]
+array.sort()
+def add():
+    max = array.sort()[0]
+    for element in array.sort():
+        if element == max:
+            return True
 
-
-def is_even(number):
-    return number % 2 == 0
-def is_odd(number):
-    return number % 2 == 1
-
-
-
+    print(array.append(max))
