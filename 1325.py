@@ -5,6 +5,7 @@ def find(array):
     for element in array:
         if element > value_max:
             value_max = element
+    return (value_max)
 def append(array1):
     value_max = array1[0]
     for element in array1:
@@ -13,6 +14,7 @@ def append(array1):
         return array1
 
     print(array1)
+
 
 
 
