@@ -7,8 +7,8 @@ def find(max_value):
     for element in original_array:
         if element > max_value:
             max_value = element
-            max_value = result[element-1]
-            remove(original_array.max_value)
+            result[element-1] = max_value
+            remove(element)
     while len(original_array) > 0:
         append(result[element])
 
